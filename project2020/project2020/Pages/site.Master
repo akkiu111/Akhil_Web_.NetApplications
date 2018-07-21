@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.Master.cs" Inherits="project2020.AdminPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/AdminStyles.css" />
+        <script src="~/Scripts/adminScript.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+
+            <div id="leftdiv">
+
+                    <div>
+                        <span class="menuheadings">Overview</span><br />
+                        <span><a href="#" class="submenuHeadings">Profile </a></span>
+                        <br />
+                        <span><a href="#" class="submenuHeadings">View Feedback </a></span>
+
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div>
+                        <span class="menuheadings">Course</span><br />
+                        <span><a href="#" class="submenuHeadings">Add New Course</a></span>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div>
+                        <span class="menuheadings">Register</span><br />
+                        <span><a href="StudentsTable.aspx" class="submenuHeadings" id="addStudent">Add New Student</a></span><br />
+                        <span><a href="TrainersTable.aspx" class="submenuHeadings" id="addTrainer">Add New Trainer</a></span>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div>
+                        <span class="menuheadings">Manage User</span><br />
+                        <span><a href="#" class="submenuHeadings">List Student</a></span><br />
+                        <span><a href="#" class="submenuHeadings">List Trainer</a></span>
+                    </div>
+                  </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

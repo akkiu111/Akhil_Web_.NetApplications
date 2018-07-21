@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+
+
+<h2>Admin</h2>
+
+<div id="container">
+    <div id="leftdiv">
+        <div>
+            <span class="menuheadings">Overview</span><br />
+        </div>
+        <br />
+        <br />
+
+        <div>
+            <span>
+                <input id="Button_ManageUsers" type="button" value="Manage Users" class="submenuHeadings" />
+            </span>
+            <br />
+        </div>
+        <br />
+        <br />
+
+        <div>
+
+
+            <span>
+                <input id="Button_ManageRoles" type="button" value="Manage Roles" class="submenuHeadings" />
+            </span>
+            <br />
+        </div>
+        <br />
+        <br />
+
+        <div>
+            <span>
+                <input id="Button_ManageCourses" type="button" value="Manage Courses" class="submenuHeadings" />
+            </span>
+            <br />
+        </div>
+    </div>
+    <div id="rightdiv">
+        <div id="admindiv">
+            <h2 style="color: black">WELCOME ADMIN</h2>
+            <hr />
+            <h3 style="font-weight: bold; color: black">Roles of the Admin:</h3>
+            <br />
+            <h4>Admin can Click on the "Profile" to view this page.</h4>
+            <br />
+            <h4>Admin can Click on the "View Feedback" to view the feedback from submitted by the student.</h4>
+            <br />
+            <h4>Admin can Click on the "Add New Course" to add courses in the course table.</h4>
+            <br />
+            <h4>Admin can Click on the "Add New Student" to insert the details of the new student.</h4>
+            <br />
+            <h4>Admin can Click on the "Add New Trainer" to insert the details of the new trainer.</h4>
+            <br />
+            <h4>Admin can Click on the "List Student" to view, update and delete the students from a table.</h4>
+            <br />
+            <h4>Admin can Click on the "List Trainer" to view, update and delete the tariners from a table.</h4>
+            <br />
+        </div>
+
+
+    </div>
+</div>
+@section scripts{
+    <script src="~/Scripts/adminjquery.js"></script>
+    <link href="~/Content/AdminStyles.css" rel="stylesheet" />
+}
+

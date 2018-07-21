@@ -1,0 +1,8 @@
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\bin\Debug\UserLogin.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\bin\Debug\UserLogin.pdb
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\bin\Debug\Utilities.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\bin\Debug\Utilities.pdb
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\obj\Debug\UserLogin.csprojResolveAssemblyReference.cache
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\obj\Debug\UserLogin.csproj.CoreCompileInputs.cache
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\obj\Debug\UserLogin.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\UserLogin\obj\Debug\UserLogin.pdb

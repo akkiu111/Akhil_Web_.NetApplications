@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSourceStudentListDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=AKHILK\SQLEXPRESS2014;Initial Catalog=StudentListDB</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>d9f1bebe-52bb-4c5e-b564-58d27dd620a0</DataSourceID>
+</RptDataSource>

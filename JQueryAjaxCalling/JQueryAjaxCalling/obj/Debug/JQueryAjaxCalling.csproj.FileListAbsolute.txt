@@ -1,0 +1,13 @@
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\JQueryAjaxCalling.dll.config
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\JQueryAjaxCalling.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\JQueryAjaxCalling.pdb
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\UserLogin.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\Utilities.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\UserLogin.pdb
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\Utilities.pdb
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\obj\Debug\JQueryAjaxCalling.csprojResolveAssemblyReference.cache
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\obj\Debug\JQueryAjaxCalling.csproj.CoreCompileInputs.cache
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\obj\Debug\JQueryAjaxCalling.dll
+E:\IMCS\DotNetProjects\JQueryAjaxCalling\JQueryAjaxCalling\obj\Debug\JQueryAjaxCalling.pdb

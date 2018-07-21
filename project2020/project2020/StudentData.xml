@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+
+  <students>
+    <SnId>1</SnId>
+    <FirstName>Akhil</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>K</LastName>
+    <Email>aka@aka.com</Email>
+    <Password>1@1234</Password>
+    <CourseId>1</CourseId>
+    <CourseName>.Net</CourseName>
+  </students>
+
+
+  <students>
+    <SnId>2</SnId>
+    <FirstName>Mitul</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>Ch</LastName>
+    <Email>mch@mch.com</Email>
+    <Password>2@1234</Password>
+    <CourseId>1</CourseId>
+    <CourseName>.Net</CourseName>
+  </students>
+
+
+  <students>
+    <SnId>3</SnId>
+    <FirstName>Lokesh</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>B</LastName>
+    <Email>lob@lob.com</Email>
+    <Password>3@1234</Password>
+    <CourseId>2</CourseId>
+    <CourseName>Java</CourseName>
+  </students>
+
+  <students>
+    <SnId>4</SnId>
+    <FirstName>Shashi</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>B</LastName>
+    <Email>shb@shb.com</Email>
+    <Password>5@1234</Password>
+    <CourseId>2</CourseId>
+    <CourseName>Java</CourseName>
+  </students>
+
+  <students>
+    <SnId>5</SnId>
+    <FirstName>Kishore</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>K</LastName>
+    <Email>kik@kik.com</Email>
+    <Password>5@1234</Password>
+    <CourseId>3</CourseId>
+    <CourseName>DevOps</CourseName>
+  </students>
+
+  <students>
+    <SnId>6</SnId>
+    <FirstName>Naveen</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>Sh</LastName>
+    <Email>nas@nas.com</Email>
+    <Password>6@1234</Password>
+    <CourseId>3</CourseId>
+    <CourseName>DevOps</CourseName>
+  </students>
+
+</catalog>
+
+
+
+
+

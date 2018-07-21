@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <trainers>
+    <TnId>5</TnId>
+    <FirstName>Vicky</FirstName>
+    <MiddleName>null</MiddleName>
+    <LastName>Garg</LastName>
+    <Email>vig@vig.com</Email>
+    <Password>V@1234</Password>
+    <CourseId>1</CourseId>
+    <CourseName>.Net</CourseName>
+  </trainers>
+</catalog>

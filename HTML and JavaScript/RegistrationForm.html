@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>IMCS Registration</title>
+    <script type="text/javascript" src="Script1.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheet1.css" />
+</head>
+<body>
+    <form name="regForm">
+        <h1>IMCS Registration Form</h1>
+        <div id="container" style="margin-left:16%">
+
+            <div id="page1">
+                <h4>Personal Information</h4>
+                <p style="color:white">
+
+                 
+                    <input type="text" placeholder="First Name"  />
+                    <label></label>
+                    <br />
+                    <br />
+
+
+                    <label>Middle Name: </label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <br />
+
+
+                    <label>Last Name:</label>
+                    <br />
+                    <input type="text"  />
+                    <label></label>
+                    <br />
+                    <br />
+
+
+                    <label>Date of Birth:</label>
+                    <br />
+                    <input type="date"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label> Email Address: </label>
+                    <br />
+                    <input type="text"  />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label> Phone Number: </label>
+                    <br />
+                    <input type="number"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>Address Line:</label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label>Apartment No:</label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>Country:</label>
+                    <br />
+
+                    <select name="ddlcountry" id="ddlCountry">
+                        <option value="0" selected>[select an option]</option>
+                        <option value="1">USA</option>
+                        <option value="2">UK</option>
+                        <option value="3">INDIA</option>
+                    </select>
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label> State: </label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>City: </label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label> Zipcode: </label>
+                    <br />
+                    <input type="number"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                </p>
+                <p>
+                    <input type="button" value="Next" onclick="page1Validation()" id="btn" />
+                </p>
+                <p id="pgno">Page 1 of 3 </p>
+                <br />
+
+            </div>
+
+
+            <div id="page2" >
+                <h4>Education</h4>
+                <p style="color:white">
+
+                    <label>University Attended:</label>
+                    <br />
+                    <input type="text"  />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+
+                    <label>Major:</label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>Degree/Diploma: </label>
+                    <br />
+                    <input type="text"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>Start Date:</label>
+                    <br />
+                    <input type="date"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>Graduation Date:</label>
+                    <br />
+                    <input type="date"   />
+                    <label></label>
+
+                    <br />
+                    <br />
+
+                    <label>University/College Attended:</label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <br />
+
+
+                    <label>Minor:</label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <br />
+
+                    <label>Degree/Diploma: </label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <br />
+
+                    <label>Start Date:</label>
+                    <br />
+                    <input type="date" />
+                    <br />
+                    <br />
+
+                    <label>Graduation Date:</label>
+                    <br />
+                    <input type="date" />
+                    <br />
+                    <br />
+
+
+                    <label> Visa type: </label>
+
+                    <input type="radio" name="visa" value="F1-OPT" />F1-OPT <br />
+                    <input type="radio" name="visa" value="F1-OPT-STEM Extension" />F1-OPT-STEM Extension <br />
+                    <input type="radio" name="visa" value="H1B" />H1B<br />
+                    <input type="radio" name="visa" value="Green card" />Green card<br />
+                    <input type="radio" name="visa" value="U.S. Citizen" />U.S. Citizen<br />
+                    <input type="radio" name="visa" value="other" checked />other<br />
+                    If other, Please Specify
+                    <textarea rows="2" cols="50"></textarea>
+                </p>
+                <p>
+                    <input type="button" value="Previous" onclick="previous1()" id="btn" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="Next" onclick="page2Validation()" id="btn" />
+                </p>
+
+                <p id="pgno">Page 2 of 3 </p>
+
+                <br />
+            </div>
+
+
+
+            <div id="page3">
+
+                <h3>
+                    Equal Opportunity Employer – Minorities/Women/Veterans/Disabled/LGBT
+                </h3>
+                <label id="heading"> Gender: </label>
+                <br />
+
+                <input type="radio" name="gender" value="Male" />Male <br />
+                <input type="radio" name="gender" value="Female" />Female<br />
+                <input type="radio" name="gender" value="other" />Other<br />
+                <input type="radio" name="gender" value="I decline to Self Identify" checked />I decline to Self Identify<br />
+
+                <label id="heading"> Disability: </label>
+                <br />
+
+                <input type="radio" name="disability" value="Yes, I have Disability" />Yes, I have Disability<br />
+                <input type="radio" name="disability" value="No, I Don't have Disability" />No, I Don't have Disability<br />
+                <input type="radio" name="disability" value="I decline to Self Identify" checked />I decline to Self Identify<br />
+
+
+                <label id="heading"> Ethinicity: </label>
+                <br />
+
+                <input type="radio" name="ethinicity" value="Asian (Not Hispanic or Latino)" />Asian (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="Hispanic or Latino" />Hispanic or Latino<br />
+                <input type="radio" name="ethinicity" value="White (Not Hispanic or Latino)" />White (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="Black or African American (Not Hispanic or Latino)" />Black or African American (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="Native Hawaiian or Pacific Islander (Not Hispanic or Latino)" /> Native Hawaiian or Pacific Islander (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="Native American or Alaska Native (Not Hispanic or Latino)" /> Native American or Alaska Native (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="Two or more races (Not Hispanic or Latino)" />Two or more races (Not Hispanic or Latino)<br />
+                <input type="radio" name="ethinicity" value="I decline to Self Identify" checked />I decline to Self Identify<br />
+
+                <label id="heading">Veteran:</label>
+                <br />
+
+                <input type="radio" name="veteran" value="Yes, I am a protected veteran" />Yes, I am a protected veteran<br />
+                <input type="radio" name="veteran" value="No, I am not a protected Veteran" />No, I am not a protected Veteran<br />
+                <input type="radio" name="veteran" value="I decline to Self Identify" checked />I decline to Self Identify<br />
+
+                <label id="heading">Security Clearance:</label>
+                <br />
+
+                <input type="radio" name="clearance" value="No, I don't have any security clearance" />No, I don't have any security clearance<br />
+                <input type="radio" name="clearance" value="Yes, I have U.S. Confidential clearance" />Yes, I have U.S. Confidential clearance<br />
+                <input type="radio" name="clearance" value="Yes, I have U.S. secret clearance" />Yes, I have U.S. secret clearance<br />
+                <input type="radio" name="clearance" value="Yes, I have U.S. top-secret clearance" />Yes, I have U.S. top-secret clearance"<br />
+                <input type="radio" name="clearance" value="I decline to Answer" checked />I decline to Answer<br />
+
+                <h4>Acknowledgement</h4>
+                <p style="color:white">
+                    <a href="#">Terms & Conditions</a>
+                    <br />
+                    <br />
+                    <input type="checkbox" id="check" />  I agree to terms and conditions.
+                </p>
+                <p>
+                    <input type="button" value="Previous" onclick="previous2()" id="btn" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="Submit" onclick="submitValidation()" id="btn" />
+                </p>
+                <p id="pgno">Page 3 of 3</p>
+
+                <br />
+            </div>
+            <div id="finalPage">Your form has been Successfully Submitted!!</div>
+        </div>
+    </form>
+</body>
+</html>

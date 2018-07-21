@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="AdminStyles.css" />
+</head>
+<body>
+
+    <div id="container">
+        <div id="leftdiv">
+            <div>
+                <span class="menuheadings">Overview</span><br />
+                <span><button type="button"  class="submenuHeadings" onclick="showadmin()">Profile </button></span>
+                <br />
+                <span><button type="button" class="submenuHeadings">View Feedback </button></span>
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div>
+                <span class="menuheadings">Course</span><br />
+                <span><button type="button" class="submenuHeadings">Add New Course</button></span>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div>
+                <span class="menuheadings">Register</span><br />
+                <span><button type="button" class="submenuHeadings" id="addstudent" onclick="addstudent()">Add New Student</button></span><br />
+                <span><button type="button" class="submenuHeadings" id="addtrainer" onclick="addtrainer()">Add New Trainer</button></span>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div>
+                <span class="menuheadings">Manage User</span><br />
+                <span><button type="button" class="submenuHeadings" onclick="studentshow()">List Student</button></span><br />
+                <span><button type="button" class="submenuHeadings" onclick="trainershow()">List Trainer</button></span>
+            </div>
+        </div>
+        <div id="rightdiv">
+            <div id="admindiv">
+                <h2 style=" color:royalblue">WELCOME ADMIN</h2><hr />
+                <h3 style="font-weight:bold; color:darkblue">Roles of the Admin:</h3> <br />
+                <h4>Admin can Click on the "Profile" to view this page.</h4><br />
+                <h4>Admin can Click on the "View Feedback" to view the feedback from submitted by the student.</h4><br />
+                <h4>Admin can Click on the "Add New Course" to add courses in the course table.</h4><br />
+                <h4>Admin can Click on the "Add New Student" to insert the details of the new student.</h4><br />
+                <h4>Admin can Click on the "Add New Trainer" to insert the details of the new trainer.</h4><br />
+                <h4>Admin can Click on the "List Student" to view, update and delete the students from a table.</h4><br />
+                <h4>Admin can Click on the "List Trainer" to view, update and delete the tariners from a table.</h4><br />
+            </div>
+
+            <div id="studentsadd" style="display:none">
+                <h2>Add Students</h2><hr /><br />
+                <form id="addbox1">
+                    <table id="satable">
+                        <tr>
+                            <th>SnId</th>
+                            <th>FirstName</th>
+                            <th>MiddleName</th>
+                            <th>LastName</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>CourseId</th>
+                            <th>CourseName</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" contenteditable="true" id="sbox1" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox2" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox3" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox4" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox5" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox6" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox7" /></td>
+                            <td><input type="text" contenteditable="true" id="sbox8" /></td>
+                        </tr>
+                    </table>
+                </form>
+                <br />
+                <div>
+                    <span><button type="button" class="buttons" onclick="savedata1()">Save</button></span>
+                    <span><button type="button" class="buttons" onclick="canceldata1()">Cancel</button></span>
+
+
+                </div>
+            </div>
+
+
+            <div id="trainersadd" style="display:none">
+                <h2>Add Trainers </h2><hr /><br />
+                <form id="addbox2">
+                    <table id="tatable">
+                        <tr>
+                            <th>TnId</th>
+                            <th>FirstName</th>
+                            <th>MiddleName</th>
+                            <th>LastName</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>CourseId</th>
+                            <th>CourseName</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" contenteditable="true" id="tbox1" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox2" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox3" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox4" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox5" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox6" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox7" /></td>
+                            <td><input type="text" contenteditable="true" id="tbox8" /></td>
+                        </tr>
+                    </table>
+                </form>
+
+                <br />
+                <div>
+                    <span><button type="button" class="buttons" onclick="savedata2()">Save</button></span>
+                    <span><button type="button" class="buttons" onclick="canceldata2()">Cancel</button></span>
+
+
+                </div>
+            </div>
+
+
+            <div id="studentstable" style="display:none">
+                <h2>Students Table</h2><hr /><br />
+                <table id="sntable">
+                    <tr>
+                        <th>SnId</th>
+                        <th>FirstName</th>
+                        <th>MiddleName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>CourseId</th>
+                        <th>CourseName</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+                </table>
+
+                <!--<br />
+                <div>
+                    <span><button type="button" class="buttons" onclick="Editdata()">Edit</button></span>
+                    <span><button type="button" class="buttons" onclick="Deletedata()">Delete</button></span>
+
+
+                </div>-->
+            </div>
+
+            <div id="trainerstable" style="display:none">
+                <h2>Trainers Table</h2><hr /><br />
+                <table id="tntable">
+                    <tr>
+                        <th>SnId</th>
+                        <th>FirstName</th>
+                        <th>MiddleName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>CourseId</th>
+                        <th>CourseName</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr><td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td></tr>
+
+                </table>
+
+                <!--<br />
+                <div>
+                    <span><button type="button" class="buttons" onclick="Editdata()">Edit</button></span>
+                    <span><button type="button" class="buttons" onclick="Deletedata()">Delete</button></span>
+
+
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="AdminScript.js"></script>
+</body>
+</html>

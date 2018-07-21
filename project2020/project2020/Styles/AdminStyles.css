@@ -1,0 +1,57 @@
+﻿
+
+
+#container{
+    height:718px;
+    width:100%;
+    background-color:steelblue;
+}
+#leftdiv {
+    float: left;
+    background-color: white;
+    height: 92%;
+    width:22%;
+    margin:1.25%;
+    padding:0.75%;
+    color:black;
+    color:steelblue;
+ 
+}
+
+#rightdiv {
+    float: right;
+    background-color: white;
+    height: 92%;
+    width: 70%;
+    margin: 1.25%;
+    padding: 0.75%;
+}
+
+.menuheadings {
+background-color:steelblue;
+color:white;
+    width: 22%;
+}
+
+.menuheadings:hover {
+    background-color:black;
+}
+
+.submenuHeadings:hover{
+    background-color:coral;
+
+}
+
+.headings{
+    color:midnightblue
+}
+
+#studentsGrid{
+    display:none;
+    height:80%;
+}
+
+#trainersGrid {
+    display:none;
+    height:80%
+}

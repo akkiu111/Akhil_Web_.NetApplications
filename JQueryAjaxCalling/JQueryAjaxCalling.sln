@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryAjaxCalling", "JQueryAjaxCalling\JQueryAjaxCalling.csproj", "{B9A3BFB4-A5ED-4B1B-A52A-9BB5651D2C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLogin", "UserLogin\UserLogin.csproj", "{C34C0090-6AF6-4F5C-A256-D9413D254D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{11BD0E9F-80E0-4B5F-968F-90170E206C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A3BFB4-A5ED-4B1B-A52A-9BB5651D2C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A3BFB4-A5ED-4B1B-A52A-9BB5651D2C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A3BFB4-A5ED-4B1B-A52A-9BB5651D2C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A3BFB4-A5ED-4B1B-A52A-9BB5651D2C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34C0090-6AF6-4F5C-A256-D9413D254D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34C0090-6AF6-4F5C-A256-D9413D254D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34C0090-6AF6-4F5C-A256-D9413D254D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34C0090-6AF6-4F5C-A256-D9413D254D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BD0E9F-80E0-4B5F-968F-90170E206C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BD0E9F-80E0-4B5F-968F-90170E206C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BD0E9F-80E0-4B5F-968F-90170E206C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BD0E9F-80E0-4B5F-968F-90170E206C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB4A527-8232-46BF-A9C7-4A1B1133366A}
+	EndGlobalSection
+EndGlobal

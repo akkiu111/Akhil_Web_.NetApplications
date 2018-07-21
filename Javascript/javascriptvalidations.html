@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Validation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 class="text-success text-center">Registration Form with Javascript Validation</h1><br>
+    <div class="container">
+
+        <div class="col-lg-8 m-auto d-block">
+            <form action="#" onsubmit="alert('Thanks for submitting!!!')" class="bg-light">
+                <div class="form-group">
+                    <input type="text" name="username" placeholder="Username" class="form-control" id="username" autocomplete="off" />
+                    <span id="susername" class="text-danger font-weight-bold"> </span>
+                </div>
+
+				
+				  <div class="form-group">
+                    <input type="text" name="emailid" placeholder="Email (example: a@a.com)" class="form-control" id="emailid" autocomplete="off" />
+                    <span id="semailid" class="text-danger font-weight-bold"> </span>
+
+                </div>
+
+                <div class="form-group">
+                    <input type="password" name="passwords" placeholder="Password" class="form-control" id="passwords" autocomplete="off" />
+                    <span id="spassword" class="text-danger font-weight-bold"> </span>
+
+                </div>
+
+                <div class="form-group">
+                    <input type="password" name="confirmpassword" placeholder="Confirm Password" class="form-control" id="confirmpassword" autocomplete="off" />
+                    <span id="sconfirmpassword" class="text-danger font-weight-bold"> </span>
+
+                </div>
+
+				<div class="form-group">
+                    <input type="text" name="phonenumber" placeholder="Phone Number (example: 1234567890)" class="form-control" id="phonenumber" autocomplete="off" />
+                    <span id="sphonenumber" class="text-danger font-weight-bold"> </span>
+
+                </div>
+                
+              
+                <input type="submit" name="submit" value="Register" onclick="return javaScriptValidation()" class="btn btn-success">
+				<input type="button" name="cancel" value="Cancel" onclick="cancellation()" class="btn btn-danger">
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="Script1.js">
+
+    </script>
+
+
+</body>
+</html>

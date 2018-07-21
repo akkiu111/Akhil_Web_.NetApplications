@@ -1,0 +1,9 @@
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\bin\StudentPortal.dll.config
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\bin\StudentPortal.dll
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\bin\StudentPortal.pdb
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\obj\Debug\StudentPortal.csprojResolveAssemblyReference.cache
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\obj\Debug\StudentPortal.csproj.CoreCompileInputs.cache
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\obj\Debug\StudentPortal.dll
+E:\IMCS\DotNetProjects\StudentPortal\StudentPortal\obj\Debug\StudentPortal.pdb

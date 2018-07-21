@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+
+<div class="container">
+    <h2>Login</h2>
+    <br />
+    <div class="form-group">
+        <input id="emailid" type="text" name="emailid" placeholder="Email (example: a@a.com)" class="form-control" />
+        <span id="error_email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input id="password" type="password" name="passwords" placeholder="Password" class="form-control" />
+        <span id="error_pwd" class="text-danger"></span>
+    </div>
+
+    <div>
+        <span id="error_login" class="text-danger"></span>
+        <br />
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;  <input id="Button_LogIn" type="button" value="Log In" class="btn btn-success" /> &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="Button_CancelLogIn" type="button" value="Cancel" class="btn btn-danger" />
+</div>
+
+@section scripts{
+    <script src="~/Scripts/loginjquery.js"></script>
+}

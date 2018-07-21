@@ -1,0 +1,9 @@
+E:\IMCS\project2020\project2020\bin\project2020.dll.config
+E:\IMCS\project2020\project2020\bin\project2020.dll
+E:\IMCS\project2020\project2020\bin\project2020.pdb
+E:\IMCS\project2020\project2020\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\IMCS\project2020\project2020\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\IMCS\project2020\project2020\obj\Debug\project2020.csprojResolveAssemblyReference.cache
+E:\IMCS\project2020\project2020\obj\Debug\project2020.csproj.CoreCompileInputs.cache
+E:\IMCS\project2020\project2020\obj\Debug\project2020.dll
+E:\IMCS\project2020\project2020\obj\Debug\project2020.pdb

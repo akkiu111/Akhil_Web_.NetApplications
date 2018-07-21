@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>  
+  
+<head runat="server">  
+    <title>Blackboard</title>  
+    <link href="Blackboard.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+</head>  
+<body>                 
+<header id="header">  
+    <h1>Blackboard</h1>  
+</header>  
+<nav id="nav">  
+    <ul>  
+        <li><a href="#">Home</a></li>  
+        <li><a href="#">About</a></li>  
+        <li><a href="#">Contact</a></li>  
+        <li><a href="/FeedbackForm.aspx">Feedback</a></li>
+    </ul>  
+</nav>  
+<div id="con">  
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+          <h1>test</h1>
+    </asp:ContentPlaceHolder>  
+</div>    
+<footer id="footer">  
+    copyright @SKMAN  
+</footer>  
+</body>  
+</html>  

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MyDataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=AKHILK\SQLEXPRESS2014;Initial Catalog=hypo</ConnectString>
+    <Prompt>Specify a user name and password for data source MyDataSource:</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>78c0b3ab-a7ad-4fd4-958c-21ee2880c86c</DataSourceID>
+</RptDataSource>
